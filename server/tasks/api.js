@@ -17,10 +17,10 @@ async function fetchMovie(item) {
                 title: '瑞克和莫蒂 第三季',
                 rate: 9.8,
                 poster: 'https://img3.doubanio.com/view/photo/l_ratio_poster/public/p2453814101.jpg' },
-            { doubanId: 25865470,
-                title: '瑞克和莫蒂 第二季',
+            { doubanId: 5359940,
+                title: '是，首相  第二季',
                 rate: 9.8,
-                poster: 'https://img1.doubanio.com/view/photo/l_ratio_poster/public/p2495174549.jpg' },
+                poster: 'https://img3.doubanio.com/view/photo/l_ratio_poster/public/p2187836590.jpg' },
         ]
 
         movies.map(async movie=>{
