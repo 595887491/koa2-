@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b38959c8-9d66-4b36-aba1-05f6a7cba355" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/server/tasks/movie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/server/tasks/api.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/server/crawler/trailer-list.js" afterPath="$PROJECT_DIR$/server/crawler/trailer-list.js" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pug.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/tpl/pug.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="0">
               <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding />
             </state>
@@ -108,13 +99,13 @@
         <entry file="file://$PROJECT_DIR$/server/crawler/trailer-list.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1525">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movie.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="movie.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/tasks/movie.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="28">
@@ -124,13 +115,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/tasks/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
-                <marker date="1554711545708" expanded="true" signature="28390:28399" ph="{&quot;camelcase&quot;: &quot;^1.0.2&quot;...}" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,6 +136,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>request</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -163,6 +159,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server/tasks/movie.js" />
         <option value="$PROJECT_DIR$/server/crawler/trailer-list.js" />
+        <option value="$PROJECT_DIR$/server/tasks/api.js" />
       </list>
     </option>
   </component>
@@ -182,8 +179,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="962" />
-    <option name="y" value="1" />
+    <option name="x" value="961" />
+    <option name="y" value="2" />
     <option name="width" value="956" />
     <option name="height" value="1041" />
   </component>
@@ -213,12 +210,6 @@
               <item name="koa2-" type="b2602c69:ProjectViewProjectNode" />
               <item name="koa2-" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koa2-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koa2-" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="koa2-" type="b2602c69:ProjectViewProjectNode" />
@@ -260,20 +251,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.trailer-list.js">
+  <component name="RunManager" selected="Node.js.api.js">
+    <configuration name="api.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="api.js" working-dir="$PROJECT_DIR$/server/tasks" />
     <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/server" />
     <configuration name="movie.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="movie.js" working-dir="$PROJECT_DIR$/server/tasks" />
     <configuration name="trailer-list.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="trailer-list.js" working-dir="$PROJECT_DIR$/server/crawler" />
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.trailer-list.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.movie.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.api.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.trailer-list.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.movie.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.index.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.api.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.trailer-list.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.movie.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -292,12 +286,12 @@
       <updated>1554355119956</updated>
       <workItem from="1554355121844" duration="13077000" />
       <workItem from="1554687217868" duration="8569000" />
-      <workItem from="1554772365430" duration="4163000" />
+      <workItem from="1554772365430" duration="8633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25809000" />
+    <option name="totallyTimeSpent" value="30279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,7 +303,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="962" y="1" width="956" height="1041" extended-state="0" />
+    <frame x="961" y="2" width="956" height="1041" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -429,7 +423,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1554711545708" expanded="true" signature="28390:28399" ph="{&quot;camelcase&quot;: &quot;^1.0.2&quot;...}" />
+            <marker date="1554798302172" expanded="true" signature="42175:42184" ph="{&quot;camelcase&quot;: &quot;^1.0.2&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -541,7 +535,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1554711545708" expanded="true" signature="28390:28399" ph="{&quot;camelcase&quot;: &quot;^1.0.2&quot;...}" />
+            <marker date="1554798302172" expanded="true" signature="42175:42184" ph="{&quot;camelcase&quot;: &quot;^1.0.2&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -596,7 +590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/tpl/pug.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="0">
           <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
@@ -621,7 +615,7 @@
     <entry file="file://$PROJECT_DIR$/server/crawler/trailer-list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1525">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -631,6 +625,24 @@
         <state relative-caret-position="28">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/request-promise-native/lib/rp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tasks/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
