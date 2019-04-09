@@ -1,3 +1,4 @@
+// puppeteer nodejs爬虫
 const puppeteer = require('puppeteer')
 const url = `https://movie.douban.com/tag/#/?sort=S&range=6,10&tags=`;
 
@@ -53,6 +54,8 @@ const sleep = time => new Promise(resolve => {
         brower.close()
 
         console.log(result);
+        process.send({ result })
+        process.exit(0)
     }
 )()
 
