@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b38959c8-9d66-4b36-aba1-05f6a7cba355" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/sync.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/server/crawler/video.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/server/tasks/trailer.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/server/tasks/api.js" afterPath="$PROJECT_DIR$/server/tasks/api.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,16 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pug.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/tpl/pug.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,28 +28,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/tpl/html.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding>
-                <marker date="1554364321875" expanded="true" signature="42:783" ph="..." />
-                <marker date="1554364321875" expanded="true" signature="53:458" ph="..." />
-                <marker date="1554364321875" expanded="true" signature="469:774" ph="..." />
-                <marker date="1554364321875" expanded="true" signature="499:764" ph="..." />
-                <marker date="1554364321875" expanded="true" signature="527:752" ph="..." />
-                <marker date="1554364321875" expanded="true" signature="562:646" ph="..." />
-                <marker date="1554364321875" expanded="true" signature="681:736" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ejs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/tpl/ejs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
+            <state relative-caret-position="1125">
               <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
               <folding>
                 <marker date="1554366743682" expanded="true" signature="40:712" ph="..." />
@@ -74,21 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/tpl/index.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="456">
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="225">
+              <caret line="187" column="28" lean-forward="false" selection-start-line="187" selection-start-column="28" selection-end-line="187" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -97,9 +69,22 @@
       <file leaf-file-name="trailer-list.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/crawler/trailer-list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="334">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/crawler/video.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+              <folding>
+                <element signature="e#689#1039#0" expanded="false" />
+                <element signature="e#1083#1480#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,8 +92,8 @@
       <file leaf-file-name="movie.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/tasks/movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="125">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -117,8 +102,8 @@
       <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/tasks/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            <state relative-caret-position="175">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -126,11 +111,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sync.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sync.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/sync.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="502">
+              <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trailer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/tasks/trailer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -149,6 +144,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>request</find>
+      <find>doubanId</find>
+      <find>promise</find>
+      <find>child-process&quot;</find>
+      <find>sleep</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,11 +164,14 @@
         <option value="$PROJECT_DIR$/server/tpl/pug.js" />
         <option value="$PROJECT_DIR$/server/tpl/ejs.js" />
         <option value="$PROJECT_DIR$/server/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server/tasks/movie.js" />
         <option value="$PROJECT_DIR$/server/crawler/trailer-list.js" />
         <option value="$PROJECT_DIR$/server/tasks/api.js" />
         <option value="$PROJECT_DIR$/test/sync.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/server/tasks/trailer.js" />
+        <option value="$PROJECT_DIR$/server/crawler/video.js" />
       </list>
     </option>
   </component>
@@ -188,7 +190,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="961" />
     <option name="y" value="2" />
     <option name="width" value="956" />
@@ -209,6 +211,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,14 +228,30 @@
             <path>
               <item name="koa2-" type="b2602c69:ProjectViewProjectNode" />
               <item name="koa2-" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="koa2-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koa2-" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="koa2-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koa2-" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="tpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="koa2-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koa2-" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,26 +274,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.sync.js">
-    <configuration name="api.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="api.js" working-dir="$PROJECT_DIR$/server/tasks" />
-    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/server" />
+  <component name="RunManager" selected="Node.js.video.js">
     <configuration name="movie.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="movie.js" working-dir="$PROJECT_DIR$/server/tasks" />
     <configuration name="sync.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="sync.js" working-dir="$PROJECT_DIR$/test" />
     <configuration name="trailer-list.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="trailer-list.js" working-dir="$PROJECT_DIR$/server/crawler" />
+    <configuration name="trailer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="trailer.js" working-dir="$PROJECT_DIR$/server/tasks" />
+    <configuration name="video.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="video.js" working-dir="$PROJECT_DIR$/server/crawler" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.trailer-list.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.movie.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.api.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.sync.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.trailer-list.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.movie.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.sync.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.trailer.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.video.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.sync.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.api.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.video.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.trailer.js" />
         <item index="2" class="java.lang.String" itemvalue="Node.js.trailer-list.js" />
         <item index="3" class="java.lang.String" itemvalue="Node.js.movie.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.index.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.sync.js" />
       </list>
     </recent_temporary>
   </component>
@@ -292,12 +312,13 @@
       <updated>1554355119956</updated>
       <workItem from="1554355121844" duration="13077000" />
       <workItem from="1554687217868" duration="8569000" />
-      <workItem from="1554772365430" duration="11758000" />
+      <workItem from="1554772365430" duration="12148000" />
+      <workItem from="1554858653594" duration="8820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33404000" />
+    <option name="totallyTimeSpent" value="42614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,7 +330,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="2" width="956" height="1041" extended-state="0" />
+    <frame x="961" y="2" width="956" height="1041" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -344,6 +365,104 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server/tpl/pug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tpl/html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <marker date="1554364321875" expanded="true" signature="42:783" ph="..." />
+            <marker date="1554364321875" expanded="true" signature="53:458" ph="..." />
+            <marker date="1554364321875" expanded="true" signature="469:774" ph="..." />
+            <marker date="1554364321875" expanded="true" signature="499:764" ph="..." />
+            <marker date="1554364321875" expanded="true" signature="527:752" ph="..." />
+            <marker date="1554364321875" expanded="true" signature="562:646" ph="..." />
+            <marker date="1554364321875" expanded="true" signature="681:736" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tpl/ejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+          <folding>
+            <marker date="1554366743682" expanded="true" signature="40:712" ph="..." />
+            <marker date="1554366743682" expanded="true" signature="47:428" ph="..." />
+            <marker date="1554366743682" expanded="true" signature="435:704" ph="..." />
+            <marker date="1554366743682" expanded="true" signature="461:696" ph="..." />
+            <marker date="1554366743682" expanded="true" signature="485:688" ph="..." />
+            <marker date="1554366743682" expanded="true" signature="516:598" ph="..." />
+            <marker date="1554366743682" expanded="true" signature="629:676" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tpl/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/crawler/trailer-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tasks/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tasks/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -412,7 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -428,9 +546,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1554798302172" expanded="true" signature="42175:42184" ph="{&quot;camelcase&quot;: &quot;^1.0.2&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -501,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -532,17 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1554798302172" expanded="true" signature="42175:42184" ph="{&quot;camelcase&quot;: &quot;^1.0.2&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,7 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/tpl/pug.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="150">
           <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
@@ -594,25 +698,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/request-promise-native/lib/rp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/tpl/ejs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
+        <state relative-caret-position="1125">
           <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
           <folding>
             <marker date="1554366743682" expanded="true" signature="40:712" ph="..." />
@@ -626,37 +721,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/crawler/trailer-list.js">
+    <entry file="file://$PROJECT_DIR$/test/sync.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/tasks/movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="502">
+          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/tasks/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        <state relative-caret-position="175">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/sync.js">
+    <entry file="file://$PROJECT_DIR$/server/crawler/trailer-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="334">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="187" column="28" lean-forward="false" selection-start-line="187" selection-start-column="28" selection-end-line="187" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tasks/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tasks/trailer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/crawler/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="e#689#1039#0" expanded="false" />
+            <element signature="e#1083#1480#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
